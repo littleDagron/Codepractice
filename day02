@@ -6,15 +6,14 @@ public:
      */
     int findPeak(vector<int>&a) {
         // write your code here
-        int low = 1, high = a.size()-1;
+        int low = 0, high = a.size()-1;
         while(low < high)
         {
-            if(a[low] > a[low+1] && a[low] > a[low-1])
-                return low;
-            else low++;
-            if(a[high] > a[high-1] && a[high] > a[high+1])
-                return high;
-            else high--;
+            int mid = low + (high - low)/2;
+            if(a[mid] < a[mid+1])
+                low = mid+1;
+            else high = mid;
         }
+        return low;
     }
 };
