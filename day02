@@ -1,0 +1,20 @@
+class Solution {
+public:
+    /**
+     * @param A: An integers array.
+     * @return: return any of peek positions.
+     */
+    int findPeak(vector<int>&a) {
+        // write your code here
+        int low = 1, high = a.size()-1;
+        while(low < high)
+        {
+            if(a[low] > a[low+1] && a[low] > a[low-1])
+                return low;
+            else low++;
+            if(a[high] > a[high-1] && a[high] > a[high+1])
+                return high;
+            else high--;
+        }
+    }
+};
