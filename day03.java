@@ -1,4 +1,4 @@
-public class Solution {
+public class day03 {
     /**
      * @param nums: The integer array.
      * @param target: Target to find.

@@ -1,4 +1,4 @@
-public class Solution {
+public class day05{
     /**
      * @param nums: a rotated sorted array
      * @return: the minimum number in the array
