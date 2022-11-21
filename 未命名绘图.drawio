@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T09:18:01.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WsiyzSBzjuEWkviI8BcK" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-21T09:25:50.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UdCpIjfbSOqo2PLE11bv" version="20.5.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="商户路由配置页">
     <mxGraphModel dx="1018" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -165,8 +165,53 @@
         <mxCell id="6643giFBdBvwHg-K-rbw-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6643giFBdBvwHg-K-rbw-1">
           <mxGeometry y="40" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6643giFBdBvwHg-K-rbw-3" value="创建时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6643giFBdBvwHg-K-rbw-1">
+        <mxCell id="6643giFBdBvwHg-K-rbw-3" value="路由类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6643giFBdBvwHg-K-rbw-1">
           <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fN_9QxnH_uwoGiBzQdtp-1">
+          <mxGeometry y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-3" value="策略名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fN_9QxnH_uwoGiBzQdtp-1">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fN_9QxnH_uwoGiBzQdtp-4">
+          <mxGeometry y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-6" value="租户id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fN_9QxnH_uwoGiBzQdtp-4">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-7" value="新建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="580" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-9" value="路由类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-10" value="策略名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-11" value="租户id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-12" value="路由名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-13" value="路由代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-14" value="策略值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fN_9QxnH_uwoGiBzQdtp-15" value="描述" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
