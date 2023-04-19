@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T06:44:41.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="QkUz1SPRsqebl03ooOg2" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-19T07:25:25.699Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yhhvMoit8wcPHLlTpXwE" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -659,6 +659,27 @@
         </mxCell>
         <mxCell id="OxaJgDEaDInpBFmtAvnn-12" value="结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="479" y="234" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OxaJgDEaDInpBFmtAvnn-13" target="OxaJgDEaDInpBFmtAvnn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-13" value="服务器部署的业务服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="109" width="156" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OxaJgDEaDInpBFmtAvnn-16" target="OxaJgDEaDInpBFmtAvnn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-16" value="可视化界面配置灰度策略，灰度路由代码，维度值等参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="201" width="156" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OxaJgDEaDInpBFmtAvnn-18" target="OxaJgDEaDInpBFmtAvnn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-18" value="业务服务接收业务请求，随后根据请求参数组装灰度信息，发送到多维度灰度服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="294.5" width="156" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-20" value="多维度灰度服务接收灰度信息，执行灰度计算，返回灰度结果，业务服务根据结果执行不同功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="383" width="156" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
