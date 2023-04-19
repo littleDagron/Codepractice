@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T06:30:34.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nBMdX5JGSjaVApmLKwKG" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-19T06:44:41.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="QkUz1SPRsqebl03ooOg2" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -605,10 +605,61 @@
     </mxGraphModel>
   </diagram>
   <diagram id="39UdXYOgOvfkPo6It7K3" name="第 3 页">
-    <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-1" value="业务服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="160" width="127" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="OxaJgDEaDInpBFmtAvnn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="297" y="187" as="sourcePoint" />
+            <mxPoint x="320" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-3" value="请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="157" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-4" value="灰度功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="589" y="97" width="127" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-5" value="原始功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="589" y="220" width="127" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="OxaJgDEaDInpBFmtAvnn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524" y="187" as="sourcePoint" />
+            <mxPoint x="576" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="OxaJgDEaDInpBFmtAvnn-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="523" y="188" as="sourcePoint" />
+            <mxPoint x="623" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-8" value="多维度灰度路由服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="290" width="127" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OxaJgDEaDInpBFmtAvnn-1" target="OxaJgDEaDInpBFmtAvnn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419" y="278" as="sourcePoint" />
+            <mxPoint x="469" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-10" value="灰度信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="372" y="231.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OxaJgDEaDInpBFmtAvnn-8" target="OxaJgDEaDInpBFmtAvnn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="288" as="sourcePoint" />
+            <mxPoint x="523" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-12" value="结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="479" y="234" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
