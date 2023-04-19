@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T08:02:08.389Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="xx_VixDZOW4IAcGUEjYM" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:44:37.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aINpw6aUXWUnBvgemWzP" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -605,7 +605,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="39UdXYOgOvfkPo6It7K3" name="第 3 页">
-    <mxGraphModel dx="1026" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="734" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -804,7 +804,7 @@
         <mxCell id="OxaJgDEaDInpBFmtAvnn-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OxaJgDEaDInpBFmtAvnn-57" target="OxaJgDEaDInpBFmtAvnn-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OxaJgDEaDInpBFmtAvnn-57" value="由路由配置信息获取策略代码，使用策略代码在策略工厂中查找对应策略执行期" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OxaJgDEaDInpBFmtAvnn-57" value="由路由配置信息获取策略代码，使用策略代码在策略工厂中查找对应策略执行器" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1907.51" y="473" width="217.49" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OxaJgDEaDInpBFmtAvnn-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OxaJgDEaDInpBFmtAvnn-59" target="OxaJgDEaDInpBFmtAvnn-61">
