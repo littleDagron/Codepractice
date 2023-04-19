@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T09:15:39.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="UQ4xZQNWF0PkLBvsqlmH" version="21.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-19T05:42:12.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="tlQ4DUV9HNMUBIQLCXRq" version="21.1.6" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -451,11 +451,155 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-88" target="tF9eq-TAVwMk88sSngUh-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-95" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tF9eq-TAVwMk88sSngUh-94">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tF9eq-TAVwMk88sSngUh-88" value="判断pre ConfirmRelationMap中该预结单对应的确认单是否为null" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1870" width="100" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-90" target="tF9eq-TAVwMk88sSngUh-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-90" target="tF9eq-TAVwMk88sSngUh-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="2070" />
+              <mxPoint x="940" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tF9eq-TAVwMk88sSngUh-90" value="该预结单对应的确认单列表添加确认单号" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-93" target="tF9eq-TAVwMk88sSngUh-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-93" value="preSettleList添加该预结单号，pre ConfirmRelationMap添加该预结单和确认单映射关系" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1887.5" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-96" target="tF9eq-TAVwMk88sSngUh-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="2210" />
+              <mxPoint x="840" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-104" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tF9eq-TAVwMk88sSngUh-98">
+          <mxGeometry x="-0.8809" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-96" target="tF9eq-TAVwMk88sSngUh-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-107" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tF9eq-TAVwMk88sSngUh-106">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-96" value="preSettleList是否为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-99" value="商户信息循环" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-101" value="预结单信息循环" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-105" target="tF9eq-TAVwMk88sSngUh-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-105" value="查询参数paramparamMap增加预结单列表" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-110" target="tF9eq-TAVwMk88sSngUh-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-110" value="初始化writer" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-112" target="tF9eq-TAVwMk88sSngUh-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-112" value="循环写excel" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-114" target="tF9eq-TAVwMk88sSngUh-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-114" value="由参数查询表dwd_mico_reconciliation_settle_detail_&lt;span style=&quot;font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: justify; box-sizing: border-box; color: rgb(255, 140, 0);&quot; class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: justify;&quot;&gt;di&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: justify;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: justify;&quot;&gt;根据预结单查询结算单明细&amp;nbsp;&lt;/span&gt;settleDetail" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-116" target="tF9eq-TAVwMk88sSngUh-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-116" value="新建结果列表resList，遍历结算明细settleDetail，将数据转换为json格式存入resList" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-118" target="tF9eq-TAVwMk88sSngUh-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-122" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tF9eq-TAVwMk88sSngUh-121">
+          <mxGeometry x="-0.1778" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-124" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-118" target="tF9eq-TAVwMk88sSngUh-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-118" value="结果列表resList是否为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-120" target="tF9eq-TAVwMk88sSngUh-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-120" value="writer写入表格" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2990" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-123" target="tF9eq-TAVwMk88sSngUh-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-123" value="遍历resList列表，将数据由json解析成excelVo对象" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-126" target="tF9eq-TAVwMk88sSngUh-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-130" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tF9eq-TAVwMk88sSngUh-129">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-126" target="tF9eq-TAVwMk88sSngUh-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-134" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tF9eq-TAVwMk88sSngUh-133">
+          <mxGeometry x="-0.1556" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-126" value="结果总页码为0 或 当前页码大于总页码" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="3105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tF9eq-TAVwMk88sSngUh-128" target="tF9eq-TAVwMk88sSngUh-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="2570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-128" value="当前页码加1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="3122.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tF9eq-TAVwMk88sSngUh-132" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3260" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
