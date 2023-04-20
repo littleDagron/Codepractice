@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T12:58:09.214Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="U-qUMgy_Fyr8rbMwGatg" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-20T13:55:45.265Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ezUHyTFvAxj1ewsKNq1c" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1385,7 +1385,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TS9SPNI_zXIky9GnBiD-237" value="生成入款对账单" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-237" value="生成收款对账单" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2550" y="550" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-244" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-240" target="6TS9SPNI_zXIky9GnBiD-243">
@@ -1420,7 +1420,7 @@
         <mxCell id="6TS9SPNI_zXIky9GnBiD-261" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-249" target="6TS9SPNI_zXIky9GnBiD-260">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6TS9SPNI_zXIky9GnBiD-249" value="生成入款账单" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-249" value="生成收款账单" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2987.5" y="570" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-257" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -1475,6 +1475,9 @@
               <mxPoint x="2780" y="1000" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-298" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-266" target="6TS9SPNI_zXIky9GnBiD-297">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-266" value="退款数据追加到收款账单中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2550" y="670" width="120" height="40" as="geometry" />
@@ -1537,6 +1540,88 @@
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-282" value="结束" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2990" y="1350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-285" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-283" target="6TS9SPNI_zXIky9GnBiD-284">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-283" value="把收单退款信息写入列表payinDataList" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="3340" y="860" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-287" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-284" target="6TS9SPNI_zXIky9GnBiD-286">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-284" value="新建文件，新建csv文件内容保存列表" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3340" y="960" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-289" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-286" target="6TS9SPNI_zXIky9GnBiD-288">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-290" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-289">
+          <mxGeometry x="-0.36" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-292" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-286" target="6TS9SPNI_zXIky9GnBiD-291">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-293" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-292">
+          <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-286" value="当前页码是否为1 &amp;amp;&amp;amp; 全路径下文件不存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="1050" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-288" value="csv列表中保存表头" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3550" y="1065" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-295" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-291" target="6TS9SPNI_zXIky9GnBiD-294">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-291" value="遍历payinDateList，将退款信息写入csv列表" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3340" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-294" value="将csv列表中退款信息追加写入到入款对账单后面" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3340" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-296" value="" style="swimlane;startSize=0;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="850" width="810" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-300" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-297" target="6TS9SPNI_zXIky9GnBiD-299">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-297" value="判断商户是否黑名单商户" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-302" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-299" target="6TS9SPNI_zXIky9GnBiD-301">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-299" value="追加争议信息到收款账单中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-304" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-301" target="6TS9SPNI_zXIky9GnBiD-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-305" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-301" target="6TS9SPNI_zXIky9GnBiD-233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2450" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2410" y="1020" />
+              <mxPoint x="2410" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-301" value="生成压缩包路径，打包" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-307" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-303" target="6TS9SPNI_zXIky9GnBiD-306">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-303" value="把所有商户的zip打成一个文件" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-306" value="上传S3并发送邮件给商户" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
