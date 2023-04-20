@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T13:55:45.265Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ezUHyTFvAxj1ewsKNq1c" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-20T13:59:46.881Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3dqhdKXVqs-JeY0_iQUT" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1622,6 +1622,12 @@
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-306" value="上传S3并发送邮件给商户" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2550" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-308" value="/data/custom/{会员号/结束日期}/upload/transaction/payin/{开始日-结束日}_{商户号}.zip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="1030" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-309" value="/data/custom/{会员号/结束日期}/{开始日-结束日}_payin.zip" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="1140" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
