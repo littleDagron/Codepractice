@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T15:13:07.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="73k3G9LynHkK5NmZFJsU" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-20T02:59:38.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HCQGmTX5sun2UbofbZUC" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -671,7 +671,7 @@
         <mxCell id="6TS9SPNI_zXIky9GnBiD-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-19" target="6TS9SPNI_zXIky9GnBiD-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6TS9SPNI_zXIky9GnBiD-19" value="新建预结算单信息列表和结算单信息列表" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-19" value="新建预结算单信息列表preDetailExcelVos和结算单信息列表result" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="4090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-21" target="6TS9SPNI_zXIky9GnBiD-23">
@@ -685,13 +685,16 @@
             <mxPoint x="1220" y="4340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-102" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-23" target="6TS9SPNI_zXIky9GnBiD-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-23" value="根据账单请求参数中的时区转换预结算信息为预结算详情vo列表" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="4310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-26" target="6TS9SPNI_zXIky9GnBiD-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6TS9SPNI_zXIky9GnBiD-26" value="新建预结算详情vo对象列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-26" value="新建预结算详情vo对象列表result" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="1350" y="4050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-27">
@@ -823,11 +826,354 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-66" target="6TS9SPNI_zXIky9GnBiD-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="4280" />
+              <mxPoint x="1290" y="4890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-99" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-98">
+          <mxGeometry x="-0.9255" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-66" value="判断国家信息列表是否为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1340" y="4240" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-73" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-71" target="6TS9SPNI_zXIky9GnBiD-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-71" value="遍历国家信息列表preCountryInfos" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1340" y="4370" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-75" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-72" target="6TS9SPNI_zXIky9GnBiD-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-72" value="将预结算信息preJson转换为vo对象" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="4480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-77" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-74" target="6TS9SPNI_zXIky9GnBiD-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-74" value="从预结算信息preJson中获取预结算详情信息，填充vo对象字段" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="4580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-79" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-76" target="6TS9SPNI_zXIky9GnBiD-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-76" value="vo对象根据国家信息preCountryInfo设置国家，结算范围，时区等信息。" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="4680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-81" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-78" target="6TS9SPNI_zXIky9GnBiD-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-78" target="6TS9SPNI_zXIky9GnBiD-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="4795" />
+              <mxPoint x="1520" y="4410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-78" value="将vo对象添加到result列表中" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="4770" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-83" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-80" target="6TS9SPNI_zXIky9GnBiD-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-84" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-83">
+          <mxGeometry x="0.0444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-80" target="6TS9SPNI_zXIky9GnBiD-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550" y="4890" />
+              <mxPoint x="1550" y="5365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-97" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-96">
+          <mxGeometry x="-0.8946" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-80" value="判断结果列表result是否为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="4850" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-86" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-82" target="6TS9SPNI_zXIky9GnBiD-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-82" value="将预结算信息preJson转换为vo对象" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="4970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-88" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-85" target="6TS9SPNI_zXIky9GnBiD-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-89" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-88">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-85" target="6TS9SPNI_zXIky9GnBiD-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="5110" />
+              <mxPoint x="1520" y="5300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-93" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-92">
+          <mxGeometry x="-0.8712" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-85" value="判断预结算信息preJson中是否包含预结算详情信息" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="5070" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-91" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-87" target="6TS9SPNI_zXIky9GnBiD-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-87" value="获取预结算详情信息，vo对象填充详情字段，设置结算时间范围" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="5190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-95" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-90" target="6TS9SPNI_zXIky9GnBiD-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-90" value="将vo对象添加到result列表中" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="5280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-94" value="返回预结算vo列表result" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="5350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-104" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-101" target="6TS9SPNI_zXIky9GnBiD-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-101" value="获取行数rowNum，大小为vo列表的size" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="4420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-106" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-103" target="6TS9SPNI_zXIky9GnBiD-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-103" value="获取预结单" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="4500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-108" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-105" target="6TS9SPNI_zXIky9GnBiD-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-109" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-108">
+          <mxGeometry x="-0.1556" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-105" target="6TS9SPNI_zXIky9GnBiD-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="4600" />
+              <mxPoint x="1210" y="4970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-127" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-126">
+          <mxGeometry x="-0.8786" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-105" value="判断关系relationMap中该预结算单号是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="4560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-111" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-107" target="6TS9SPNI_zXIky9GnBiD-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-107" value="获取结算单号对应的结算确认单号列表" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="4680" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-113" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-110" target="6TS9SPNI_zXIky9GnBiD-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-110" value="使用符号&quot;\n\r&quot;拼接确认单号列表为confirmStr" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="4760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-115" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-112" target="6TS9SPNI_zXIky9GnBiD-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-112" value="循环预结算详情vo列表，把其中每一项的结算确认单号设置为confirmStr" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="4850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-117" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-114" target="6TS9SPNI_zXIky9GnBiD-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-114" value="将预结算详情列表放入预结算信息列表中preDetailExcelVos" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="4940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-119" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-116" target="6TS9SPNI_zXIky9GnBiD-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-120" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-119">
+          <mxGeometry x="0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-116" target="6TS9SPNI_zXIky9GnBiD-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="5070" />
+              <mxPoint x="1150" y="5265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-124" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-123">
+          <mxGeometry x="-0.8667" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-116" value="判断行数rowNum是否大于1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="5030" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-122" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-118" target="6TS9SPNI_zXIky9GnBiD-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-118" value="设置预结算单合并列" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="5150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-121" target="6TS9SPNI_zXIky9GnBiD-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="4260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="5265" />
+              <mxPoint x="910" y="4230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-129" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-121" target="6TS9SPNI_zXIky9GnBiD-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-121" value="其实行号StartNum加上行数rowNum" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="5240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-131" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-128" target="6TS9SPNI_zXIky9GnBiD-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-128" value="查询结算确认单信息dwd_mico_reconciliation_settle_sum_&lt;span style=&quot;font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: justify; box-sizing: border-box; color: rgb(255, 140, 0);&quot; class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: justify;&quot;&gt;di&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="5320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-133" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-130" target="6TS9SPNI_zXIky9GnBiD-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-130" value="获取确认单信息列表confirmDetailList，并将其转化为json列表confirmListObj" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="5420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-135" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-132" target="6TS9SPNI_zXIky9GnBiD-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-132" value="新建合并区域集合" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="5510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-137" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-134" target="6TS9SPNI_zXIky9GnBiD-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-134" value="判断结算确认单列表confirmDetailList是否为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="5590" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-141" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-136" target="6TS9SPNI_zXIky9GnBiD-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-136" value="结算确认单json列表按照结算确认单号分组" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="5700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-143" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-140" target="6TS9SPNI_zXIky9GnBiD-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-140" value="遍历分组后的map，（confirmNo, confirmExs）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="5790" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-147" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-142" target="6TS9SPNI_zXIky9GnBiD-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-142" value="获取行数，确认单对应的确认单信息列表confirmExs大小" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="5910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-149" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-146" target="6TS9SPNI_zXIky9GnBiD-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-146" value="遍历确认单信息列表confirmExs" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="6000" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-150" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="6140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-168" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-148" target="6TS9SPNI_zXIky9GnBiD-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-148" value="将其转化为结算确认单对象，并填充信息" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="6110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-154" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-152">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="6070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-155" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-154">
+          <mxGeometry x="-0.3" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-157" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-152" target="6TS9SPNI_zXIky9GnBiD-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-158" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-157">
+          <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-152" value="判断汇率是否为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="5950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-156" value="设置汇率描述为空" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="5960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-161" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-159" target="6TS9SPNI_zXIky9GnBiD-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-162" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6TS9SPNI_zXIky9GnBiD-161">
+          <mxGeometry x="-0.325" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-166" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-159" target="6TS9SPNI_zXIky9GnBiD-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-159" value="判断汇率生效时间是否为空或者汇率是否为1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="6070" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-160" value="设置汇率描述为汇率" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="6080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-165" value="汇率描述设置为汇率+&quot;\r\n&quot; + 汇率生效时间 + &quot;(UTC)&quot;" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="6200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-167" target="6TS9SPNI_zXIky9GnBiD-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="6070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="6260" />
+              <mxPoint x="950" y="6040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-171" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6TS9SPNI_zXIky9GnBiD-167" target="6TS9SPNI_zXIky9GnBiD-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-167" value="将结算确认单信息对象放入结算确认单列表result中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="6230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6TS9SPNI_zXIky9GnBiD-170" value="生成合并集合列表" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="6330" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
