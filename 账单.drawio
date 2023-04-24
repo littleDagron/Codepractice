@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:01:44.058Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JQnbQg2VYOUC8O9WVxAX" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-24T08:40:55.961Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="q5xfJs6IQZf48JuS9S4b" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1628,6 +1628,9 @@
         </mxCell>
         <mxCell id="6TS9SPNI_zXIky9GnBiD-309" value="/data/custom/{会员号/结束日期}/{开始日-结束日}_payin.zip" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2620" y="1140" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-1" value="详情，原始流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="7910" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
