@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:57:58.390Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Qm8jmuVTySy-lksmFyUt" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-24T09:20:22.183Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lmXO_vfeJiO_OuNhzh3E" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1635,11 +1635,86 @@
         <mxCell id="3hQKHUFjx83m3VpcnVH1-7" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3hQKHUFjx83m3VpcnVH1-5" target="3hQKHUFjx83m3VpcnVH1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3hQKHUFjx83m3VpcnVH1-5" value="查询status=5 &amp;amp;&amp;amp; status!=&#39;INIT&#39;的预结算单，结算确认单号，状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-5" value="查询status=5 &amp;amp;&amp;amp; status!=&#39;INIT&#39;的预结算单，结算确认单号，状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="380" y="7970" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3hQKHUFjx83m3VpcnVH1-6" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-6" value="获取预接单号list，构建预接单号与结算确认单号关系map，key为预结单号，value为确认单号list" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="377.5" y="8090" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="7910" width="210" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-8" value="结算详情" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-14">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-9" value="以预结单号list为查询参数，查询结算详情" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-14">
+          <mxGeometry x="90" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-10" value="结算详情转化json，再由json转为&lt;br&gt;excelVo对象" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-14">
+          <mxGeometry x="90" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-14" source="3hQKHUFjx83m3VpcnVH1-9" target="3hQKHUFjx83m3VpcnVH1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-12" value="循环写入sheet" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-14">
+          <mxGeometry x="90" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-14" source="3hQKHUFjx83m3VpcnVH1-10" target="3hQKHUFjx83m3VpcnVH1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="770" y="7910" width="200" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-15" value="预结算单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-16" value="以预结单号list为查询参数，查询status=5 的预结单信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-17" value="根据预结单号去重" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry x="80" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-16" target="3hQKHUFjx83m3VpcnVH1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-21" value="遍历预接单信息" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry x="85" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-17" target="3hQKHUFjx83m3VpcnVH1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-23" value="解析preDetiilInfo和extendInfo字段，转换成excelVo对象list" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry x="80" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-21" target="3hQKHUFjx83m3VpcnVH1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-25" value="根据预结算单和结算单关系map，填充确认单号" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-26" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-23" target="3hQKHUFjx83m3VpcnVH1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-27" target="3hQKHUFjx83m3VpcnVH1-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="500" />
+              <mxPoint x="30" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-27" value="合并相同的行" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry x="80" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-25" target="3hQKHUFjx83m3VpcnVH1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-30" value="excelVo列表写入sheet" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="3hQKHUFjx83m3VpcnVH1-32">
+          <mxGeometry x="80" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-27" target="3hQKHUFjx83m3VpcnVH1-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
