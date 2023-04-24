@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T09:20:22.183Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lmXO_vfeJiO_OuNhzh3E" version="21.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-24T10:05:09.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZjcRRREwaeAAzp4uJtGZ" version="21.1.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1715,6 +1715,18 @@
         </mxCell>
         <mxCell id="3hQKHUFjx83m3VpcnVH1-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3hQKHUFjx83m3VpcnVH1-32" source="3hQKHUFjx83m3VpcnVH1-27" target="3hQKHUFjx83m3VpcnVH1-30">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-33" value="结算单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="7910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-36" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3hQKHUFjx83m3VpcnVH1-34" target="3hQKHUFjx83m3VpcnVH1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-34" value="以预结算单号list为查询条件，查询结算确认单号，以结算确认单号查询结算信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="7950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQKHUFjx83m3VpcnVH1-35" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="8050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
