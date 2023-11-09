@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T08:14:16.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="BDJtpm1suj9pTL2Ixe3S" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T05:38:02.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="qIIFwlzKED-H9pevljEa" version="22.0.8" type="github">
   <diagram name="第 1 页" id="cu0csjhSQF4z3ltx_wKB">
     <mxGraphModel dx="1026" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -41,14 +41,8 @@
         <mxCell id="pJqj7H3_A37Cpctz6LLI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pJqj7H3_A37Cpctz6LLI-16" source="pJqj7H3_A37Cpctz6LLI-7" target="pJqj7H3_A37Cpctz6LLI-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pJqj7H3_A37Cpctz6LLI-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pJqj7H3_A37Cpctz6LLI-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="480" as="sourcePoint" />
-            <mxPoint x="475" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pJqj7H3_A37Cpctz6LLI-18" value="&lt;div&gt;商户号，票据类型，收件人，首次开票日期，开票周期，开票注意事项，姓名，联系方式&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="220" width="210" height="190" as="geometry" />
+        <mxCell id="pJqj7H3_A37Cpctz6LLI-18" value="&lt;div&gt;商户号，票据类型，收件人，首次开票日期，开票周期，开票注意事项，姓名，联系方式&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="730" width="540" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pJqj7H3_A37Cpctz6LLI-19" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="545" y="628" width="50" height="30" as="geometry" />
