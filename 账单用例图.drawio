@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T07:35:28.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.15" etag="QS_Ug3Pdn_G1ZIBJcBRJ" type="github"><diagram name="第 1 页" id="V7BOwg61o0SJ9_WKATgb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2024-01-03T06:14:26.881Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wEOLLJMqVd2qj_PQglR6" version="22.1.15" type="github">
+  <diagram name="第 1 页" id="V7BOwg61o0SJ9_WKATgb">
+    <mxGraphModel dx="1026" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GTaUBku-AOTHJ5suvo1-1" target="5GTaUBku-AOTHJ5suvo1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GTaUBku-AOTHJ5suvo1-1" target="5GTaUBku-AOTHJ5suvo1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-1" value="客户对账路径" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="189" y="189" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GTaUBku-AOTHJ5suvo1-4" target="5GTaUBku-AOTHJ5suvo1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-4" value="S3页面拉取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="316" y="131" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GTaUBku-AOTHJ5suvo1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-5" value="登录SFTP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="316" y="211" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-9" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="290" y="261" width="126" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-10" value="1.无法登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="316" y="269" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-8" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="282" y="253" width="23" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GTaUBku-AOTHJ5suvo1-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="652" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-13" value="指定路径获取账单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="491" y="213" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-14" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="466" y="261" width="127" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-15" value="1.账单生成路径错误&lt;br&gt;2.账单未生成&lt;br&gt;3.账单zip包文件名错误" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492" y="269" width="83" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-16" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="458" y="253" width="23" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GTaUBku-AOTHJ5suvo1-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="822" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-18" value="账单解析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="655" y="213" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-19" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="634" y="261" width="131" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-20" value="1.账单文件名错误&lt;br&gt;2.账单格式不对(csv,xlsx)&lt;br&gt;3.账单字段错误(字段缺失，字段冗余，字段缺失去)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="269" width="85" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-21" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="625" y="251" width="23" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-23" value="对账" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="826" y="213" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-25" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="802" y="263" width="129" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-26" value="1.账单数据条目错误(数据缺失)&lt;br&gt;2.账单资金流，信息流难以对上" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="828" y="271" width="83" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="5GTaUBku-AOTHJ5suvo1-27" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="793" y="253" width="23" height="23" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
