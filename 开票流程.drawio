@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T13:15:20.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="519kLJL1SZOsZ8GNMnpz" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T05:43:34.070Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1VXOTye-yrhlU4YYhRkr" version="22.1.21" type="github" pages="2">
   <diagram name="第 1 页" id="cu0csjhSQF4z3ltx_wKB">
-    <mxGraphModel dx="1026" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,8 +168,46 @@
         <mxCell id="HVTADqvi9kav-OrVGYuU-35" value="操作员账号激活" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="940" y="1195" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_tnm5-aNoUzQb92LcqBZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_tnm5-aNoUzQb92LcqBZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GzejsNA35uah5Cyf58Cn" name="第 2 页">
+    <mxGraphModel dx="1026" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nkRXtdyLiusc29qKUhsi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nkRXtdyLiusc29qKUhsi-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-1" value="获取开通账单会员号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nkRXtdyLiusc29qKUhsi-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-3" value="拉取当天账单计划" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nkRXtdyLiusc29qKUhsi-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-5" value="根据会员号分组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-6" value="比对分组数和开通会员号账单数是否一致" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-8" value="根据计划号获取信息号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
