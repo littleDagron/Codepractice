@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T05:43:34.070Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1VXOTye-yrhlU4YYhRkr" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-20T12:10:26.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="LX9SUt_HPbkvqSA9u2Ou" version="23.1.1" type="github" pages="2">
   <diagram name="第 1 页" id="cu0csjhSQF4z3ltx_wKB">
     <mxGraphModel dx="1026" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -179,35 +179,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nkRXtdyLiusc29qKUhsi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nkRXtdyLiusc29qKUhsi-1">
+        <mxCell id="nkRXtdyLiusc29qKUhsi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="nkRXtdyLiusc29qKUhsi-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nkRXtdyLiusc29qKUhsi-1" value="获取开通账单会员号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nkRXtdyLiusc29qKUhsi-1" value="获取开通账单会员号" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="140" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nkRXtdyLiusc29qKUhsi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nkRXtdyLiusc29qKUhsi-3">
+        <mxCell id="nkRXtdyLiusc29qKUhsi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="nkRXtdyLiusc29qKUhsi-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nkRXtdyLiusc29qKUhsi-3" value="拉取当天账单计划" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nkRXtdyLiusc29qKUhsi-3" value="拉取当天账单计划" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="230" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nkRXtdyLiusc29qKUhsi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nkRXtdyLiusc29qKUhsi-5">
+        <mxCell id="nkRXtdyLiusc29qKUhsi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="nkRXtdyLiusc29qKUhsi-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nkRXtdyLiusc29qKUhsi-5" value="根据会员号分组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nkRXtdyLiusc29qKUhsi-5" value="根据会员号分组" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="320" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nkRXtdyLiusc29qKUhsi-6" value="比对分组数和开通会员号账单数是否一致" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="nkRXtdyLiusc29qKUhsi-6" value="比对分组数和开通会员号账单数是否一致" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="nkRXtdyLiusc29qKUhsi-8" value="根据计划号获取信息号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nkRXtdyLiusc29qKUhsi-8" target="DRZhU7RM03bqdv0-Pzh2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkRXtdyLiusc29qKUhsi-8" value="根据计划号获取信息号" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="410" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DRZhU7RM03bqdv0-Pzh2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-1" value="由计划号获取临时文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="510" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-4" value="对比文件数和账单信息中是否一致" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DRZhU7RM03bqdv0-Pzh2-6" target="DRZhU7RM03bqdv0-Pzh2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-6" value="解析文件，获取文件条数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-7" value="对比记录数和账单信息中是否一致" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DRZhU7RM03bqdv0-Pzh2-8" value="完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="680" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
