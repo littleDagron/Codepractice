@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T08:49:53.310Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="esEtKMmMjdWbl6ZEe0fX" version="24.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-24T09:09:17.544Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3BG5Xs59U-qRLgAHwlHS" version="24.0.4" type="github" pages="3">
   <diagram name="第 1 页" id="cu0csjhSQF4z3ltx_wKB">
     <mxGraphModel dx="1026" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -506,6 +506,27 @@
         </mxCell>
         <mxCell id="NObJLYzm5EEqaqrMD9Xn-89" value="低代码平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2490" y="310" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NObJLYzm5EEqaqrMD9Xn-98" value="表单定义" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="620" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NObJLYzm5EEqaqrMD9Xn-99" value="+ 表单id&lt;div&gt;+ 表单key&lt;/div&gt;&lt;div&gt;+ 表单url&lt;/div&gt;&lt;div&gt;+ 表单类型&lt;/div&gt;&lt;div&gt;+表单内容&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NObJLYzm5EEqaqrMD9Xn-98">
+          <mxGeometry y="26" width="140" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="NObJLYzm5EEqaqrMD9Xn-102" value="问卷任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="620" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NObJLYzm5EEqaqrMD9Xn-103" value="+ 任务id&lt;div&gt;+ 表单key&lt;br&gt;&lt;div&gt;+ 问卷内容&lt;/div&gt;&lt;div&gt;+ 问卷地址&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ 触达方式&lt;/div&gt;&lt;div&gt;+ 是否匿名&lt;/div&gt;&lt;div&gt;+ 触达用户&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NObJLYzm5EEqaqrMD9Xn-102">
+          <mxGeometry y="26" width="140" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="NObJLYzm5EEqaqrMD9Xn-109" value="问卷收集信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="830" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NObJLYzm5EEqaqrMD9Xn-110" value="+ 任务id&lt;div&gt;+ 答案id&lt;br&gt;&lt;div&gt;+ 答案内容&lt;/div&gt;&lt;div&gt;+ 填写用户&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NObJLYzm5EEqaqrMD9Xn-109">
+          <mxGeometry y="26" width="140" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="NObJLYzm5EEqaqrMD9Xn-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="NObJLYzm5EEqaqrMD9Xn-99" target="NObJLYzm5EEqaqrMD9Xn-103">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
