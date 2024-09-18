@@ -2099,10 +2099,10 @@
           <mxGeometry x="700" y="210" width="120" height="49" as="geometry" />
         </mxCell>
         <mxCell id="fcSXbKlRU344AmIDVhut-8" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;AbnormalOrderWorkOrderMappingPO&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="229" width="360" height="301" as="geometry" />
+          <mxGeometry x="970" y="229" width="350" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-9" value="+id&lt;div&gt;+&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-8">
-          <mxGeometry y="50" width="360" height="251" as="geometry" />
+        <mxCell id="fcSXbKlRU344AmIDVhut-9" value="+id&lt;div&gt;+work_order_id 工单id&lt;/div&gt;&lt;div&gt;+abnormal_order_id 异常订单id&lt;/div&gt;&lt;div&gt;+create_user_Id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-8">
+          <mxGeometry y="50" width="350" height="91" as="geometry" />
         </mxCell>
         <mxCell id="fcSXbKlRU344AmIDVhut-10" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单与工单关联关系&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="200" width="180" height="30" as="geometry" />
