@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="7">
   <diagram name="第 1 页" id="cu0csjhSQF4z3ltx_wKB">
     <mxGraphModel dx="1026" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2076,78 +2076,117 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CquftjbK9slkeV-KPpF5" name="异常订单中心">
-    <mxGraphModel dx="1026" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fcSXbKlRU344AmIDVhut-2" value="AbnormalSceneConfigPo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="239" width="260" height="180" as="geometry" />
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="720" y="1440" width="310" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-3" value="+id&lt;br&gt;&lt;div&gt;+product_code 产品码&lt;br&gt;&lt;/div&gt;&lt;div&gt;+payment_type 支付类型&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+scene_code 异常场景编码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+scene_name 异常场景名称&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+data_query_template_id 异常场景编码&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+status 状态&lt;br&gt;&lt;/div&gt;&lt;div&gt;+is_deleted 删除标识&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-2">
-          <mxGeometry y="50" width="260" height="130" as="geometry" />
+        <mxCell id="fcSXbKlRU344AmIDVhut-33" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;AbnormalOrderHandleLogPO&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-1" vertex="1">
+          <mxGeometry y="30" width="310" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-4" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 14px;&quot;&gt;异常场景配置&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="210" width="120" height="49" as="geometry" />
+        <mxCell id="fcSXbKlRU344AmIDVhut-35" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常单处理日志&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-1" vertex="1">
+          <mxGeometry x="75" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-5" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;AbnormalOrderWorkOrderPO&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="239" width="280" height="281" as="geometry" />
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="1060" width="310" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-6" value="+work_order_id&amp;nbsp;&lt;br&gt;&lt;div&gt;+process_id 工单id&lt;br&gt;&lt;/div&gt;&lt;div&gt;+task_id 任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+handle_process_id 处理流程id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+business_key 业务唯一键&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;applicant_share_id 申请人&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;work_order_type 异常工单类型&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+business_data 业务数据&lt;/div&gt;&lt;div&gt;+callback_data 回调数据&lt;/div&gt;&lt;div&gt;+status 状态&lt;/div&gt;&lt;div&gt;+create_user_id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;&lt;div&gt;+utc_create_time 创建时间&lt;/div&gt;&lt;div&gt;+utc_update_time 更新时间&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-5">
-          <mxGeometry y="50" width="280" height="231" as="geometry" />
+        <mxCell id="fcSXbKlRU344AmIDVhut-27" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;AbnormalOrderProcessMappingPO&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-2" vertex="1">
+          <mxGeometry y="30" width="310" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-7" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单工单&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="210" width="120" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-8" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;AbnormalOrderWorkOrderMappingPO&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="229" width="350" height="141" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-9" value="+id&lt;div&gt;+work_order_id 工单id&lt;/div&gt;&lt;div&gt;+abnormal_order_id 异常订单id&lt;/div&gt;&lt;div&gt;+create_user_Id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-8">
-          <mxGeometry y="50" width="350" height="91" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-10" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单与工单关联关系&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="200" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-17" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;AbnormalOrderVAPO&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="570" width="310" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-18" value="+id&lt;div&gt;+abnormal_order_id 异常订单id&lt;/div&gt;&lt;div&gt;+va_account va账户&lt;/div&gt;&lt;div&gt;+payer_name 付款方名称&lt;/div&gt;&lt;div&gt;+payer_account&amp;nbsp; 付款方账户&lt;/div&gt;&lt;div&gt;+payer_bank_code 付款方账户名称&lt;/div&gt;&lt;div&gt;+payee_account 收款方账户&lt;/div&gt;&lt;div&gt;+trade_serial_no 交易流水号&lt;/div&gt;&lt;div&gt;+trade_amount 交易金额&lt;/div&gt;&lt;div&gt;+trade_currency 交易币种&lt;/div&gt;&lt;div&gt;+trade_bill_date 交易账单日期&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-17">
-          <mxGeometry y="50" width="310" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-20" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;VA异常订单&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="985" y="540" width="120" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-23" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;AbnormalOrderProcessPO&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="570" width="310" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-24" value="+id&lt;div&gt;+process_name 流程名称&lt;/div&gt;&lt;div&gt;+process_type 流程类型&lt;/div&gt;&lt;div&gt;+current_step_index 当前步骤&lt;/div&gt;&lt;div&gt;+remark 备注&lt;/div&gt;&lt;div&gt;+create_user_id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;&lt;div&gt;+create_time 创建时间&lt;/div&gt;&lt;div&gt;+update_time 更新时间&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-23">
-          <mxGeometry y="50" width="310" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-25" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单工单处理流程&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="540" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-27" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;AbnormalOrderProcessMappingPO&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="890" width="310" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-28" value="+id&lt;div&gt;+process_id 流程id&lt;/div&gt;&lt;div&gt;+abnormal_order_id 异常订单id&lt;/div&gt;&lt;div&gt;+create_user_id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;&lt;div&gt;+create_time 创建时间&lt;/div&gt;&lt;div&gt;+update_time 更新时间&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-27">
+        <mxCell id="fcSXbKlRU344AmIDVhut-28" value="+id&lt;div&gt;+process_id 流程id&lt;/div&gt;&lt;div&gt;+abnormal_order_id 异常订单id&lt;/div&gt;&lt;div&gt;+create_user_id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;&lt;div&gt;+create_time 创建时间&lt;/div&gt;&lt;div&gt;+update_time 更新时间&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="fcSXbKlRU344AmIDVhut-27" vertex="1">
           <mxGeometry y="50" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-29" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常单和处理流程关系表&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="860" width="170" height="20" as="geometry" />
+        <mxCell id="fcSXbKlRU344AmIDVhut-29" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常单和处理流程关系表&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;container=1;" parent="9l5ZQvwSvoSBmmQfqH9w-2" vertex="1">
+          <mxGeometry x="70" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-30" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;AbnormalOrderPO&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="570" width="330" height="720" as="geometry" />
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="960" y="1050" width="310" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-31" value="+id&lt;div&gt;+business_key 业务key，异常订单唯一标识&lt;/div&gt;&lt;div&gt;+out_user_id 商户用户id&lt;/div&gt;&lt;div&gt;+channel_pay_request_no 渠道支付请求单号&lt;/div&gt;&lt;div&gt;+channel_pay_commit_no 渠道提交单号&lt;/div&gt;&lt;div&gt;+merchant_order_no 商户订单号&lt;/div&gt;&lt;div&gt;+channel_code 渠道编码&lt;/div&gt;&lt;div&gt;+payment_method_type 支付方式类型&lt;/div&gt;&lt;div&gt;+target_org 目标机构&lt;/div&gt;&lt;div&gt;+card_org 卡组&lt;/div&gt;&lt;div&gt;+business_type 业务类型&lt;/div&gt;&lt;div&gt;+business_order_no 业务订单号&lt;/div&gt;&lt;div&gt;+country 国家&lt;/div&gt;&lt;div&gt;+merchant_no 商户号&lt;/div&gt;&lt;div&gt;+old_merchant_no 老商户号&lt;/div&gt;&lt;div&gt;+consult_group_name 咨询群名称群号&lt;/div&gt;&lt;div&gt;+merchant_name 商户名称&lt;/div&gt;&lt;div&gt;+mapping_code 映射错误码&lt;/div&gt;&lt;div&gt;+mapping_msg 映射错误信息&lt;/div&gt;&lt;div&gt;+response_code 渠道返回码&lt;/div&gt;&lt;div&gt;+response_msg 渠道返回信息&lt;/div&gt;&lt;div&gt;+source 异常单来源&lt;/div&gt;&lt;div&gt;+scene 异常单场景&lt;/div&gt;&lt;div&gt;+tag 异常单标签&lt;/div&gt;&lt;div&gt;+owner 负责人&lt;/div&gt;&lt;div&gt;+reason_type 异常原因类型&lt;/div&gt;&lt;div&gt;+reason_desc 异常原因描述&lt;/div&gt;&lt;div&gt;+operater 当前处理人&lt;/div&gt;&lt;div&gt;+status 状态&lt;/div&gt;&lt;div&gt;+produce_code 产品吗&lt;/div&gt;&lt;div&gt;+va_account va账户&lt;/div&gt;&lt;div&gt;+channel_commit_create_time 提交单创建时间&lt;/div&gt;&lt;div&gt;+channel_request_create_time 请求单创建时间&lt;/div&gt;&lt;div&gt;+channel_request_modify_time 请求单更新时间&lt;/div&gt;&lt;div&gt;+channel_request_complete_time 请求单完成时间&lt;/div&gt;&lt;div&gt;+ext_info 扩展信息&lt;/div&gt;&lt;div&gt;+attachment 附件&lt;/div&gt;&lt;div&gt;+channel_request_current_status 渠道请求单当前状态&lt;/div&gt;&lt;div&gt;+channel_commit_current_status 渠道提交单当前状态&lt;/div&gt;&lt;div&gt;+channel_commit_target_status 渠道提交单目标状态&lt;/div&gt;&lt;div&gt;+finish_time 异常单处理完成时间&lt;/div&gt;&lt;div&gt;+system_collect_time 系统采集时间&lt;/div&gt;&lt;div&gt;+manual_collect_time 人工采集时间&lt;/div&gt;&lt;div&gt;+remark 备注&lt;/div&gt;&lt;div&gt;+abnormal_order_level 异常订单级别&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fcSXbKlRU344AmIDVhut-30">
+        <mxCell id="fcSXbKlRU344AmIDVhut-23" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;AbnormalOrderProcessPO&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-3" vertex="1">
+          <mxGeometry y="30" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-24" value="+id&lt;div&gt;+process_name 流程名称&lt;/div&gt;&lt;div&gt;+process_type 流程类型&lt;/div&gt;&lt;div&gt;+current_step_index 当前步骤&lt;/div&gt;&lt;div&gt;+remark 备注&lt;/div&gt;&lt;div&gt;+create_user_id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;&lt;div&gt;+create_time 创建时间&lt;/div&gt;&lt;div&gt;+update_time 更新时间&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="fcSXbKlRU344AmIDVhut-23" vertex="1">
+          <mxGeometry y="50" width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-25" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单工单处理流程&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-3" vertex="1">
+          <mxGeometry x="80" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="790" width="310" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-17" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;AbnormalOrderVAPO&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-4" vertex="1">
+          <mxGeometry y="30" width="310" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-18" value="+id&lt;div&gt;+abnormal_order_id 异常订单id&lt;/div&gt;&lt;div&gt;+va_account va账户&lt;/div&gt;&lt;div&gt;+payer_name 付款方名称&lt;/div&gt;&lt;div&gt;+payer_account&amp;nbsp; 付款方账户&lt;/div&gt;&lt;div&gt;+payer_bank_code 付款方账户名称&lt;/div&gt;&lt;div&gt;+payee_account 收款方账户&lt;/div&gt;&lt;div&gt;+trade_serial_no 交易流水号&lt;/div&gt;&lt;div&gt;+trade_amount 交易金额&lt;/div&gt;&lt;div&gt;+trade_currency 交易币种&lt;/div&gt;&lt;div&gt;+trade_bill_date 交易账单日期&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="fcSXbKlRU344AmIDVhut-17" vertex="1">
+          <mxGeometry y="50" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-20" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;VA异常订单&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-4" vertex="1">
+          <mxGeometry x="95" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="190" width="260" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-2" value="AbnormalSceneConfigPo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-5" vertex="1">
+          <mxGeometry y="29" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-3" value="+id&lt;br&gt;&lt;div&gt;+product_code 产品码&lt;br&gt;&lt;/div&gt;&lt;div&gt;+payment_type 支付类型&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+scene_code 异常场景编码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+scene_name 异常场景名称&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+data_query_template_id 异常场景编码&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+status 状态&lt;br&gt;&lt;/div&gt;&lt;div&gt;+is_deleted 删除标识&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="fcSXbKlRU344AmIDVhut-2" vertex="1">
+          <mxGeometry y="50" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-4" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 14px;&quot;&gt;异常场景配置&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-5" vertex="1">
+          <mxGeometry x="80" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="540" width="330" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="9l5ZQvwSvoSBmmQfqH9w-6" source="fcSXbKlRU344AmIDVhut-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164.66666666666674" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9l5ZQvwSvoSBmmQfqH9w-7">
+          <mxGeometry x="0.7833" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-10" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9l5ZQvwSvoSBmmQfqH9w-7">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-30" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;AbnormalOrderPO&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-6" vertex="1">
+          <mxGeometry y="30" width="330" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-31" value="+id&lt;div&gt;+business_key 业务key，异常订单唯一标识&lt;/div&gt;&lt;div&gt;+out_user_id 商户用户id&lt;/div&gt;&lt;div&gt;+channel_pay_request_no 渠道支付请求单号&lt;/div&gt;&lt;div&gt;+channel_pay_commit_no 渠道提交单号&lt;/div&gt;&lt;div&gt;+merchant_order_no 商户订单号&lt;/div&gt;&lt;div&gt;+channel_code 渠道编码&lt;/div&gt;&lt;div&gt;+payment_method_type 支付方式类型&lt;/div&gt;&lt;div&gt;+target_org 目标机构&lt;/div&gt;&lt;div&gt;+card_org 卡组&lt;/div&gt;&lt;div&gt;+business_type 业务类型&lt;/div&gt;&lt;div&gt;+business_order_no 业务订单号&lt;/div&gt;&lt;div&gt;+country 国家&lt;/div&gt;&lt;div&gt;+merchant_no 商户号&lt;/div&gt;&lt;div&gt;+old_merchant_no 老商户号&lt;/div&gt;&lt;div&gt;+consult_group_name 咨询群名称群号&lt;/div&gt;&lt;div&gt;+merchant_name 商户名称&lt;/div&gt;&lt;div&gt;+mapping_code 映射错误码&lt;/div&gt;&lt;div&gt;+mapping_msg 映射错误信息&lt;/div&gt;&lt;div&gt;+response_code 渠道返回码&lt;/div&gt;&lt;div&gt;+response_msg 渠道返回信息&lt;/div&gt;&lt;div&gt;+source 异常单来源&lt;/div&gt;&lt;div&gt;+scene 异常单场景&lt;/div&gt;&lt;div&gt;+tag 异常单标签&lt;/div&gt;&lt;div&gt;+owner 负责人&lt;/div&gt;&lt;div&gt;+reason_type 异常原因类型&lt;/div&gt;&lt;div&gt;+reason_desc 异常原因描述&lt;/div&gt;&lt;div&gt;+operater 当前处理人&lt;/div&gt;&lt;div&gt;+status 状态&lt;/div&gt;&lt;div&gt;+produce_code 产品吗&lt;/div&gt;&lt;div&gt;+va_account va账户&lt;/div&gt;&lt;div&gt;+channel_commit_create_time 提交单创建时间&lt;/div&gt;&lt;div&gt;+channel_request_create_time 请求单创建时间&lt;/div&gt;&lt;div&gt;+channel_request_modify_time 请求单更新时间&lt;/div&gt;&lt;div&gt;+channel_request_complete_time 请求单完成时间&lt;/div&gt;&lt;div&gt;+ext_info 扩展信息&lt;/div&gt;&lt;div&gt;+attachment 附件&lt;/div&gt;&lt;div&gt;+channel_request_current_status 渠道请求单当前状态&lt;/div&gt;&lt;div&gt;+channel_commit_current_status 渠道提交单当前状态&lt;/div&gt;&lt;div&gt;+channel_commit_target_status 渠道提交单目标状态&lt;/div&gt;&lt;div&gt;+finish_time 异常单处理完成时间&lt;/div&gt;&lt;div&gt;+system_collect_time 系统采集时间&lt;/div&gt;&lt;div&gt;+manual_collect_time 人工采集时间&lt;/div&gt;&lt;div&gt;+remark 备注&lt;/div&gt;&lt;div&gt;+abnormal_order_level 异常订单级别&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="fcSXbKlRU344AmIDVhut-30" vertex="1">
           <mxGeometry y="50" width="330" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-32" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="540" width="150" height="20" as="geometry" />
+        <mxCell id="fcSXbKlRU344AmIDVhut-32" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-6" vertex="1">
+          <mxGeometry x="90" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-33" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;AbnormalOrderHandleLogPO&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="900" width="310" height="200" as="geometry" />
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="550" width="350" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="fcSXbKlRU344AmIDVhut-35" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常单处理日志&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="935" y="870" width="170" height="20" as="geometry" />
+        <mxCell id="fcSXbKlRU344AmIDVhut-8" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;AbnormalOrderWorkOrderMappingPO&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-11" vertex="1">
+          <mxGeometry y="29" width="350" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-9" value="+id&lt;div&gt;+work_order_id 工单id&lt;/div&gt;&lt;div&gt;+abnormal_order_id 异常订单id&lt;/div&gt;&lt;div&gt;+create_user_Id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="fcSXbKlRU344AmIDVhut-8" vertex="1">
+          <mxGeometry y="50" width="350" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-10" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单与工单关联关系&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-11" vertex="1">
+          <mxGeometry x="80" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5ZQvwSvoSBmmQfqH9w-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="960" y="540" width="280" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-5" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;AbnormalOrderWorkOrderPO&lt;/pre&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-13" vertex="1">
+          <mxGeometry y="29" width="280" height="281" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-6" value="+work_order_id&amp;nbsp;&lt;br&gt;&lt;div&gt;+process_id 工单id&lt;br&gt;&lt;/div&gt;&lt;div&gt;+task_id 任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+handle_process_id 处理流程id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+business_key 业务唯一键&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;applicant_share_id 申请人&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;work_order_type 异常工单类型&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+business_data 业务数据&lt;/div&gt;&lt;div&gt;+callback_data 回调数据&lt;/div&gt;&lt;div&gt;+status 状态&lt;/div&gt;&lt;div&gt;+create_user_id 创建人&lt;/div&gt;&lt;div&gt;+update_user_id 更新人&lt;/div&gt;&lt;div&gt;+utc_create_time 创建时间&lt;/div&gt;&lt;div&gt;+utc_update_time 更新时间&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="fcSXbKlRU344AmIDVhut-5" vertex="1">
+          <mxGeometry y="50" width="280" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="fcSXbKlRU344AmIDVhut-7" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;异常订单工单&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="9l5ZQvwSvoSBmmQfqH9w-13" vertex="1">
+          <mxGeometry x="80" width="120" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
